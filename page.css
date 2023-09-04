@@ -1,0 +1,180 @@
+body {
+    background-image: url(app.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:block;
+
+}
+section{
+    
+   
+    display: block;
+
+    border: 1px solid white;
+    background-color:red;
+    text-align: center;
+    bottom: 50%;
+    width: 5cm;
+    padding: 0%;
+    border-radius: 50px;
+   height: 1000px;
+
+}
+
+#test{
+    border: 2px solid white;
+    background-color: white;
+    color:red;
+    padding: 12%;
+    padding-bottom:510%;
+   padding-right: 40%;
+}
+
+
+
+
+main{
+
+position:relative;
+min-height: 900px;
+width: 80%;
+font-size: 0.7cm;
+background-color:  #dfb6bdd4;;
+margin: 0 auto;
+border-radius: 20px 30px 20px 39px;
+box-shadow: 11px -6px 18px 11px rgb(50, 157, 176);
+border-style: solid;
+border-color: rgb(65, 44, 103);
+}
+
+form{
+    font-weight: bolder;
+    font-style: oblique;
+}
+main input{
+    height: 35px;
+}
+#envoie   {
+    padding: 2%;
+    margin-left: 40%;
+    cursor:pointer;
+}
+
+main a {
+    border: rgb(237, 201, 201) solid 1px;
+    position: absolute;
+    bottom:2%;
+    margin-left:2.5cm;
+    box-shadow: 11px -6px 18px 11px rgba(79, 169, 185, 0.466);
+    cursor: grab;
+    padding: 0.3cm;
+    
+    
+}
+
+#suivant {
+    color: rgb(104, 61, 203);
+    cursor: grab;
+    position: absolute;
+    right: 4%;
+    box-shadow: 11px -6px 18px 11px rgba(57, 139, 153, 0.562);
+}
+
+
+h1{
+    display: block;
+    background-color: bisque;
+    border:solid rgb(88, 88, 104);
+    border-radius:150px;
+    text-align:center;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    color: red;
+    
+    
+    
+}
+
+footer{
+    
+    background-color:  #dfb6bd00;;
+    height:5cm;
+    border:solid 2px blueviolet;
+    border-radius:400px;
+    box-shadow:0px 1px 17px 0px #2126f3f5;
+}
+
+footer h4{
+    text-align: center;
+    color: rgb(72, 64, 239);
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  80px;
+    
+    
+}
+
+footer ul{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    border: white solid 1 px;
+    flex-direction: row;    
+    
+}
+
+main label{
+    margin-left:10cm
+}
+
+footer li{
+    position:relative;
+    margin-left: -6cm;
+    border: solid 1px ;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(240, 255, 255, 0.701);
+    border-radius: 300px;
+    border-color: rgb(125, 125, 48);
+    box-shadow:0px 1px 17px 0px #2126f3f5;
+    margin-left: -2cm;
+    
+}
+
+
+@media screen and (max-width :1460px){
+
+    main label{
+        margin-left: 7cm
+    }
+    
+
+    
+}
+
+@media screen and (max-width :1280px){
+
+    main label{
+        margin-left: 4cm
+    }
+    
+
+    
+}
+@media screen and (max-width :1108px){
+
+    main label{
+        margin-left: 2cm
+    }
+    h1{
+        font-size: 30px;
+    }
+    footer li{
+        margin-left: 3cm;
+    }
+
+    
+}
